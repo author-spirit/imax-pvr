@@ -13,7 +13,7 @@ FORMAT = "imax"  # imax | pxl | laser | 4dx
 SEARCH_STR = "hail mary"
 URL = "https://api3.pvrcinemas.com/api/v1/booking/content/mshowtimes"
 CRON_ON = False
-CRON_EXPRESSION = "* * * * *"  # Run every hour
+CRON_EXPRESSION = "0 * * * *"  # Run every hour
 FETCH_N_DAYS = 3
 LOG_FILE = "showtimes.log"
 
