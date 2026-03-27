@@ -1,3 +1,11 @@
+## Note
+Due to no IMAX shows for `Project Hail Mary` I came up with this script to track the shows PVR apis.
+This saved time in manually checking shows in BMS, PVR, District
+Make friendly request (every 1-6 hr) as currently no hard restrictions/auth/cloudfare (during test)
+
+## TODO
+- Enable Notification alert.
+
 ## Installation
 ```
 pip install requests
